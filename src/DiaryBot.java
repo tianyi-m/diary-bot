@@ -78,13 +78,12 @@ public class DiaryBot extends Application {
         Button button = new Button("Done"); 
 
         // create a label
-        Label label = new Label("Your diary is finished and saved. Continue if you want to write another one, close the application if you are done.");
+        Label label = new Label("Your diary is finished and saved. Continue if you want to write another one.");
+        label.setStyle("-fx-background-color: white;-fx-font-size: 20px;");
 
         // create and configure a popup window
         Popup popup = new Popup(); 
-        popup.setX(300);
-        popup.setY(200);
-
+        popup.getContent().addAll(label);
 
         // save the diary on click
         button.setOnAction(new EventHandler<ActionEvent>() {

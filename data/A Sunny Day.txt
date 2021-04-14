@@ -1,0 +1,9 @@
+How is your day?
+It's good. I wrote a simple diary bot that helps people write diaries more smoothly. 
+
+How are you feeling?
+I am feeling a bit tired, but a good nap will cheer me up!
+
+What is on your mind?
+I am thinking about some cool projects I am gonna make. I am looking forward to them.
+
